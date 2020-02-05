@@ -6,6 +6,6 @@ def my_func():
     from random import randint
     c = [randint(1, b) for i in range(a)]
     print(c)
-    d = [e for e in c if e > 10]
-    print("Больше 10", d)
+    d = [e for e in c if e > 7]
+    print("Больше 7", d)
 my_func()
